@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Recognition Result</title>
+</head>
+<body>
+    <h1>Detected Food: {{ food }}</h1>
+    <img src="{{ image }}" alt="Food Image" style="width:300px;">
+    <h2>Origin: {{ info.origin }}</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+        {% for item in info.ingredients %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Recipe:</h3>
+    <p>{{ info.recipe }}</p>
+    <a href="/">Try another image</a>
+</body>
+</html>
