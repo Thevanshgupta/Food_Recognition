@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+*.env
+*.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Cache
+*.log
+*.tmp
+*.cache
+*.bak
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Flask uploads
+static/uploads/
+instance/
+*.db
+*.sqlite3
+
+# Dataset (large files)
+dataset/
+!dataset/README.md   # Keep a readme for dataset structure
+
+# YOLOv8 training runs
+runs/
+weights/
+results/
+*.pt  # YOLO models (best.pt, last.pt)
+
+# Images / Outputs
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# System files
+desktop.ini
+
+# PyCharm + other local configs
+*.iml
